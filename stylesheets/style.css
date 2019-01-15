@@ -1,0 +1,658 @@
+body,html{
+	padding:0;
+	margin:0;
+	font-size:16px;
+	font-family: roboto,  "sans-serif";
+	background-color: #f781ab;
+	width:100%;
+	height:100%;
+	background-image: linear-gradient(to bottom, #1e1b1a, #191616, #131010, #0a0909, #000000);
+	overflow: hidden;
+}
+.windmill1{
+	position: absolute;
+	bottom:15%;
+	left:10%;
+	transform: translateX(-50%);
+	background-image: url('https://www.nj.gov/dcf/families/CAP%20pinwheel.png');
+	background-size: cover;
+	width:200px;
+	height:200px;
+	z-index:2;
+}
+.windmill1.rotate{
+	animation: rotate 3s infinite linear;
+}
+@-webkit-keyframes rotate{
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(360deg);
+	}
+}
+.verticle-post1{
+	width:10px;
+	height:170px;
+	position: absolute;
+	bottom: 0;
+    left: 17%;
+	background-color: green;
+	border:1px solid green;
+	z-index:1;
+}
+.windmill2{
+	position: absolute;
+	bottom:7%;
+	left:26.5%;
+	transform: translateX(-50%);
+	background-image: url('https://www.nj.gov/dcf/families/CAP%20pinwheel.png');
+	background-size: cover;
+	width:100px;
+	height:100px;
+	z-index:2;
+	animation: rotate 3s infinite linear;
+}
+.verticle-post2{
+	width:5px;
+	height:75px;
+	position: absolute;
+	bottom: 0;
+    left: 29.9%;
+	background-color: green;
+	border:1px solid green;
+	z-index:1;
+}
+.windmill3{
+	position: absolute;
+	bottom:5%;
+	left:5%;
+	transform: translateX(-50%);
+	background-image: url('https://www.nj.gov/dcf/families/CAP%20pinwheel.png');
+	background-size: cover;
+	width:70px;
+	height:70px;
+	z-index:2;
+	animation: rotate 3s infinite linear;
+}
+.verticle-post3{
+	width:5px;
+	height:50px;
+	position: absolute;
+	bottom: 0;
+    left: 7.2%;
+	background-color: green;
+	border:1px solid green;
+	z-index:1;
+}
+.windmill4{
+	position: absolute;
+	bottom:3%;
+	left:1%;
+	transform: translateX(-50%);
+	background-image: url('https://www.nj.gov/dcf/families/CAP%20pinwheel.png');
+	background-size: cover;
+	width:50px;
+	height:50px;
+	z-index:2;
+	animation: rotate 3s infinite linear;
+}
+.verticle-post4{
+	width:5px;
+	height:30px;
+	position: absolute;
+	bottom: 0;
+    left: 2.5%;
+	background-color: green;
+	border:1px solid green;
+	z-index:1;
+}
+.windmill5{
+	position: absolute;
+	bottom:20%;
+	left:34%;
+	transform: translateX(-50%);
+	background-image: url('https://www.nj.gov/dcf/families/CAP%20pinwheel.png');
+	background-size: cover;
+	width:120px;
+	height:120px;
+	z-index:2;
+	animation: rotate 3s infinite linear;
+}
+.verticle-post5{
+	width:7px;
+	height:160px;
+	position: absolute;
+	bottom: 0;
+    left: 38%;
+	background-color: green;
+	border:1px solid green;
+	z-index:1;
+}
+.windmill6{
+	position: absolute;
+	bottom:5%;
+	left:58%;
+	transform: translateX(-50%);
+	background-image: url('https://www.nj.gov/dcf/families/CAP%20pinwheel.png');
+	background-size: cover;
+	width:70px;
+	height:70px;
+	z-index:2;
+	animation: rotate 3s infinite linear;
+}
+.verticle-post6{
+	width:5px;
+	height:50px;
+	position: absolute;
+	bottom: 0;
+    left: 60.5%;
+	background-color: green;
+	border:1px solid green;
+	z-index:1;
+}
+.windmill7{
+	position: absolute;
+	bottom:20%;
+	left:65%;
+	transform: translateX(-50%);
+	background-image: url('https://www.nj.gov/dcf/families/CAP%20pinwheel.png');
+	background-size: cover;
+	width:120px;
+	height:120px;
+	z-index:2;
+	animation: rotate 3s infinite linear;
+}
+.verticle-post7{
+	width:7px;
+	height:160px;
+	position: absolute;
+	bottom: 0;
+    left: 69%;
+	background-color: green;
+	border:1px solid green;
+	z-index:1;
+}
+.windmill8{
+	position: absolute;
+	bottom:5%;
+	left:75%;
+	transform: translateX(-50%);
+	background-image: url('https://www.nj.gov/dcf/families/CAP%20pinwheel.png');
+	background-size: cover;
+	width:70px;
+	height:70px;
+	z-index:2;
+	animation: rotate 3s infinite linear;
+}
+.verticle-post8{
+	width:5px;
+	height:50px;
+	position: absolute;
+	bottom: 0;
+    left: 77%;
+	background-color: green;
+	border:1px solid green;
+	z-index:1;
+}
+.windmill9{
+	position: absolute;
+	bottom:15%;
+	left:80%;
+	transform: translateX(-50%);
+	background-image: url('https://www.nj.gov/dcf/families/CAP%20pinwheel.png');
+	background-size: cover;
+	width:200px;
+	height:200px;
+	z-index:2;
+	animation: rotate 3s infinite linear;
+}
+.verticle-post9{
+	width:10px;
+	height:170px;
+	position: absolute;
+	bottom: 0;
+    left: 87%;
+	background-color: green;
+	border:1px solid green;
+	z-index:1;
+}
+.star{
+	position: fixed;
+	width:2px;
+	height:2px;
+	border-radius: 50%;
+}
+.star-flicker{
+	animation: flickerBig 1.5s infinite linear,
+	flickerSmall 1.5s infinite linear;
+}
+@-webkit-keyframes flickerBig{
+	0%{
+		transform: scale(1);
+	}
+	25%{
+
+		transform: scale(1.5);
+	}
+	50%{
+		transform: scale(2);
+	}
+	75%{
+
+		transform: scale(1.5);
+	}
+	100%{
+		transform: scale(1);
+	}
+}
+ @-webkit-keyframes flickerSmall{
+	from{
+		transform: scale(2);
+	}
+	to{
+		transform: scale(1);
+	}
+} 
+.moon{
+	width:250px;
+	height:250px;
+	background-image: url('../images/moon.png');
+	background-size:cover;
+	background-color: transparent;
+	position: absolute;
+	top:-40%;
+	left:0%;
+	animation: shake1 2s infinite linear,
+	appear 2s forwards;
+	animation-delay: 1.5s;
+	z-index:30;
+}
+@-webkit-keyframes appear{
+  	0% {
+  		left:0%;
+  		top:-40%;
+  	}
+  	25% {
+    	left:15%;
+  		top:0%;
+  	}
+  	75% {
+    	left:30%;
+  		top:-10%;
+  	}
+  	100% {
+    	left:40%;
+  		top:10%;
+  	}
+}
+@-webkit-keyframes shake1{
+  	0% {
+  		-webkit-transform: rotate(0deg);
+  	}
+  	25% {
+    	-webkit-transform: rotate(20deg);
+  	}
+  	75% {
+    	-webkit-transform: rotate(-20deg);
+  	}
+  	100% {
+    	-webkit-transform: rotate(0deg);
+  	}
+}
+.cat{
+	width:200px;
+	height:200px;
+	bottom:0;
+	position: absolute;
+	left:42%;
+	background:url('../images/cat.png');
+	background-size:cover;
+	animation: scale .8s infinite linear;
+}
+@-webkit-keyframes scale{
+	from{
+		transform:scale(1);
+	}
+	to{
+		transform:scale(1.05);
+	}
+}
+.move{
+	width:1px;
+	height:1px;
+	animation: move 5s infinite linear;
+	position: absolute;
+	top:0;
+	left:0;
+}
+@-webkit-keyframes move{
+	from {
+		transform: translateX(0px);
+	}
+	to{
+		transform: translateX(2000px);
+	}
+}
+.rope{
+	background-image: url('../images/rope.png');
+	width:100%;
+	height:200px;
+	background-size:cover;
+	position: absolute;
+	top:-100px;
+	left:5%;
+	z-index:2;
+}
+.nga1{
+	position: absolute;
+	top: 13px;
+    left: 105px;
+    width: 2px;
+    height: 100px;
+    background-color: red;
+    z-index: 1;
+    transform-origin: 50% 0;
+    animation: shake2 3s infinite linear;
+}
+@-webkit-keyframes shake2{
+  	0% {
+  		-webkit-transform: rotate(0deg);
+  	}
+  	25% {
+    	-webkit-transform: rotate(10deg);
+  	}
+  	75% {
+    	-webkit-transform: rotate(-10deg);
+  	}
+  	100% {
+    	-webkit-transform: rotate(0deg);
+  	}
+}
+.rope1{
+	position: relative;
+
+}
+.rope1:after{
+	content:" ";
+	position:absolute;
+	background-image: url('../images/nga1.jpg');
+	width:50px;
+	height:70px;
+	transform:rotate(45deg);
+	background-size:cover;
+	top: -300px;
+    left: -32px;
+    animation:fall .5s forwards;
+    animation-delay: .1s;
+}
+.nga2{
+	position: absolute;
+	top: 52px;
+	left: 219px;
+	width: 2px;
+	height: 100px;
+	background-color: yellow;
+	z-index: 1;
+	animation: shake2 3s infinite linear;
+	animation-delay: 1.3s;
+}
+.rope2{
+	position: relative;
+}
+.rope2:after{
+	content:" ";
+	position:absolute;
+	background-image: url('../images/nga2.jpg');
+	width:50px;
+	height:70px;
+	transform:rotate(45deg);
+	background-size:cover;
+	top: -300px;
+    left: -32px;
+    animation:fall .5s forwards;
+    animation-delay: .3s;
+}
+.nga3{
+	position: absolute;
+	top: 69px;
+	left: 315px;
+	width: 2px;
+	height: 100px;
+	background-color: dodgerblue;
+	z-index: 1;
+	animation: shake2 3s infinite linear;
+	animation-delay: 0.1s;
+
+}
+.rope3{
+	position: relative;
+}
+.rope3:after{
+	content:" ";
+	position:absolute;
+	background-image: url('../images/nga3.jpg');
+	width:50px;
+	height:70px;
+	transform:rotate(45deg);
+	background-size:cover;
+	top: -300px;
+    left: -32px;
+    animation:fall .5s forwards;
+    animation-delay: .9s;
+}
+.nga4{
+	position: absolute;
+	top: 84px;
+	left: 461px;
+	width: 2px;
+	height: 100px;
+	background-color: tomato;
+	z-index: 1;
+	animation: shake2 3s infinite linear;
+	animation-delay: 2s;
+}
+.rope4{
+	position: relative;
+}
+.rope4:after{
+	content:" ";
+	position:absolute;
+	background-image: url('../images/nga4.jpg');
+	width:50px;
+	height:70px;
+	transform:rotate(45deg);
+	background-size:cover;
+	top: -300px;
+    left: -32px;
+    animation:fall .5s forwards;
+    animation-delay: .5s;
+}
+.nga5{
+	position: absolute;
+	top: 83px;
+	left: 61%;
+	width: 2px;
+	height: 100px;
+	background-color: gold;
+	z-index: 1;
+	animation: shake2 3s infinite linear;
+	animation-delay: 0.5s;
+}
+.rope5{
+	position: relative;
+}
+.rope5:after{
+	content:" ";
+	position:absolute;
+	background-image: url('../images/nga5.jpg');
+	width:50px;
+	height:70px;
+	transform:rotate(45deg);
+	background-size:cover;
+	top: -300px;
+    left: -32px;
+    animation:fall .5s forwards;
+    animation-delay: .11s;
+}
+.nga6{
+	position: absolute;
+	top: 71px;
+	left: 68%;
+	width: 2px;
+	height: 100px;
+	background-color: lightblue;
+	z-index: 1;
+	animation: shake2 3s infinite linear;
+	animation-delay: 1.9s;
+}
+.rope6{
+	position: relative;
+}
+.rope6:after{
+	content:" ";
+	position:absolute;
+	background-image: url('../images/nga6.jpg');
+	width:50px;
+	height:70px;
+	transform:rotate(45deg);
+	background-size:cover;
+	top: -300px;
+    left: -32px;
+    animation:fall .5s forwards;
+    animation-delay: .2s;
+}
+.nga7{
+	position: absolute;
+	top: 59px;
+	left: 76%;
+	width: 2px;
+	height: 100px;
+	background-color: white;
+	z-index: 1;
+	animation: shake2 3s infinite linear;
+	animation-delay: 1.5s;
+}
+.rope7{
+	position: relative;
+}
+.rope7:after{
+	content:" ";
+	position:absolute;
+	background-image: url('../images/nga7.jpg');
+	width:50px;
+	height:70px;
+	transform:rotate(45deg);
+	background-size:cover;
+	top: -300px;
+    left: -32px;
+    animation:fall .5s forwards;
+    animation-delay: .5s;
+}
+.nga8{
+	position: absolute;
+	top: 19px;
+	left: 88%;
+	width: 2px;
+	height: 100px;
+	background-color: pink;
+	z-index: 1;
+	animation: shake2 3s infinite linear;
+	animation-delay: 1.2s;
+}
+.rope8{
+	position: relative;
+}
+.rope8:after{
+	content:" ";
+	position:absolute;
+	background-image: url('../images/husky.png');
+	width:50px;
+	height:70px;
+	transform:rotate(45deg);
+	background-size:cover;
+	top: -300px;
+    left: -32px;
+    animation:fall .5s forwards;
+    animation-delay: .3s;
+}
+@-webkit-keyframes fall{
+	0%{
+		top:-300px;
+		left:-32px;
+	}
+	95%{
+		top:120px;
+		left:-32px;
+	}
+	100%{
+		top:105px;
+		left:-32px;
+	}
+}
+#meteor{
+	position: absolute;
+	width:200px;
+	height:90px;
+	background:url('../images/mt.png');
+	background-size: cover;
+	animation: meteor 300ms forwards,
+	daira 400ms forwards;
+
+	transform-origin: 100% 0;
+}
+@-webkit-keyframes daira{
+	from{
+		width:0;
+		height:0;
+	}
+	to{
+		width:200px;
+		height:90px;
+	}
+}
+@-webkit-keyframes meteor{
+	from{
+		width:0;
+		height:0;
+		transform:translateX(0);
+	}
+	to{
+		width:200px;
+		height:90px;
+		transform:translateX(200px);
+	}
+}
+.text{
+	position: absolute;
+	right:1%;
+	bottom:-10%;
+	width:550px;
+	height:400px;
+}
+.text .text-pos{
+	position: relative;
+	width:100%;
+	height:100%;
+	overflow: hidden;
+	margin-right:3px;
+}
+.text p{
+	position: absolute;
+	color:#e06dad;
+	font-size: 17px;
+	font-style: italic;
+	width:100%;
+	height:0;
+	overflow: hidden;
+	white-space: nowrap;
+	animation: toRight 80s infinite linear;
+}
+@-webkit-keyframes toRight{
+	from{
+		height:0;
+	}
+	to{
+		height:100%;
+	}
+}
